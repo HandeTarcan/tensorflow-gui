@@ -1,6 +1,6 @@
 #/bin/sh
 
-echo "Setting up enviroment for TensorFlow-GUI"
+echo "Setting up environment for TensorFlow-GUI"
 
 conda --version 2> /dev/null
 if [ $? == 0 ]
