@@ -37,3 +37,28 @@ Mentors: **Monjoy Saha** (monjoy.saha -at- emory.edu) and **Pooya Mobadersany** 
 - Start the TensorFlow-GUI
 
     `./run.sh`
+    
+## During setting up and running, if you encounter two errors such as './setup.sh: line 21: npm: command not found' and './run.sh: line 9: npm: command not found', do one of the following options:
+
+Option 1: 
+
+- Install Homebrew if you don't have already:
+
+    `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+    
+- Run the commands consecutively.
+
+    `brew update`
+    
+    `brew install node`
+    
+    `brew postinstall` 
+    
+Option 2: 
+
+- Download the file from https://nodejs.org/en/ (With Node.js, you also install npm package.)
+
+- Install the downloaded file
+
+    
+
